@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  number: MyString
+  FT: MyString
+  description: MyString
+  keepMeLoggedIn: false
+
+two:
+  number: MyString
+  FT: MyString
+  description: MyString
+  keepMeLoggedIn: false

@@ -1,0 +1,38 @@
+.sc-pane.sc-panel{overflow:visible;z-index:100;}.sc-pane.sc-modal.for-sc-panel{background:black;opacity:.3;-moz-opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=30);}
+.sc-pane.sc-panel>.sc-view{border:0 #444 solid;background-color:#eaeaea;}.sc-pane.sc-panel>.top-right-edge{position:absolute;width:40px;height:40px;top:-20px;right:-20px;z-index:-1;}
+.sc-pane.sc-panel>.top-left-edge{position:absolute;width:40px;height:40px;top:-20px;left:-20px;z-index:-1;}
+.sc-pane.sc-panel>.bottom-left-edge{position:absolute;width:40px;height:40px;bottom:-20px;left:-20px;z-index:-1;}
+.sc-pane.sc-panel>.bottom-right-edge{position:absolute;width:40px;height:40px;bottom:-20px;right:-20px;z-index:-1;}
+.sc-pane.sc-panel>.top-edge{position:absolute;height:20px;top:-20px;right:20px;left:20px;z-index:-1;}
+.sc-pane.sc-panel>.bottom-edge{position:absolute;height:20px;bottom:-20px;right:20px;left:20px;z-index:-1;}
+.sc-pane.sc-panel>.left-edge{position:absolute;width:20px;top:20px;bottom:20px;left:-20px;z-index:-1;}
+.sc-pane.sc-panel>.right-edge{position:absolute;width:20px;top:20px;bottom:20px;right:-20px;z-index:-1;}
+.sc-button-view{display:inline-block;vertical-align:middle;text-decoration:none;border:1px #555 none;z-index:0;}
+.sc-button-view.sc-regular-size.square{font-size:12px;max-height:24px;background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUp.png');border-radius:5px;}
+.sc-button-view.sc-regular-size.square .sc-button-inner{height:24px;max-height:24px;background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUp.png');border-radius:5px;}
+.sc-button-view.sc-regular-size.square .sc-button-label{height:18px;line-height:24px;margin-left:11px;margin-right:11px;background:none;}
+.sc-button-view.sc-regular-size.square.active{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');}
+.sc-button-view.sc-regular-size.square.active .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');}
+.sc-button-view.sc-regular-size.square.active .sc-button-label{background:none;}
+.sc-button-view.sc-regular-size.square.def,.sc-button-view.sc-regular-size.square.sel{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUpDefault.png');}
+.sc-button-view.sc-regular-size.square.def .sc-button-inner,.sc-button-view.sc-regular-size.square.sel .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUpDefault.png');}
+.sc-button-view.sc-regular-size.square.def .sc-button-label,.sc-button-view.sc-regular-size.square.sel .sc-button-label{background:none;}
+.sc-button-view.sc-regular-size.square.def.active,.sc-button-view.sc-regular-size.square.sel.active{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');}
+.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');}
+.sc-button-view.sc-regular-size.square.def.active .sc-button-label,.sc-button-view.sc-regular-size.square.sel.active .sc-button-label{background:none;}
+///////////////////////////// capsule ////////////////////////////// .sc-button-view.capsule{font-size:12px;height:24px;max-height:100px;text-shadow:#fff 0 1px 0;text-align:center;background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUpDefault.png');border-radius:5px;color:black;}
+.sc-button-view.capsule .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUpDefault.png');border-radius:5px;display:block;height:24px;max-height:100px;}
+.sc-button-view.capsule .sc-button-label{background:none;border-radius:5px;display:block;text-align:center;padding:0 0 7px 0;height:24px;margin-left:12px;margin-right:12px;line-height:24px;text-shadow:none;}
+.sc-button-view.capsule.sel,.sc-button-view.capsule.def{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUpDefault.png');border-radius:5px;scroll right -304px;}
+.sc-button-view.capsule.sel .sc-button-inner,.sc-button-view.capsule.def .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonUpDefault.png');border-radius:5px;}
+.sc-button-view.capsule.sel .sc-button-label,.sc-button-view.capsule.def .sc-button-label{background:none;color:black;}
+.sc-button-view.capsule.disabled{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');border-radius:5px;scroll right -544px;}
+.sc-button-view.capsule.disabled .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');border-radius:5px;}
+.sc-button-view.capsule.disabled .sc-button-label{background:none;color:#999;text-shadow:none;}
+.sc-button-view.capsule.sel.active,.sc-button-view.capsule.def.active{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');scroll right -464px;}
+.sc-button-view.capsule.sel.active .sc-button-inner,.sc-button-view.capsule.def.active .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');}
+.sc-button-view.capsule.sel.active .sc-button-label,.sc-button-view.capsule.def.active .sc-button-label{background:none;color:black;}
+.sc-button-view.capsule.active{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');scroll right -384px;}
+.sc-button-view.capsule.active .sc-button-inner{background-image:url('/static/hackenit/en/1dbc4d7097d3d34f707fb06081a567ea025534a6/resources/images/buttonDown.png');}
+.sc-button-view.capsule.active .sc-button-label{background:none;color:black;}.base-view{background:#cbdee9;background-image:-webkit-gradient(radial,center bottom,0,center bottom,800,from(gray),to(#262629));background-image:-moz-radial-gradient(bottom,circle,gray 0,#262629 800px);}
+.call-label{text-align:center;}.name-label{text-align:center;}

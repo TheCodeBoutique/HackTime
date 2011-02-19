@@ -1,0 +1,9 @@
+.disclaimer{color:white;font-family:Garamond,Garamond,'Garamond Antiqua',times,serif!important;font-size:19px!important;}
+.textfields{opacity:.0;}.buttons{opacity:.0;z-index:0;}.about-view{z-index:5;font-size:18px!important;color:white;}
+.flyLabels{opacity:.0;color:gray;font-family:Garamond,Garamond,'Garamond Antiqua',times,serif!important;font-size:25px!important;}
+.description{opacity:.0;color:gray;font-family:Garamond,Garamond,'Garamond Antiqua',times,serif!important;font-size:25px!important;}
+.my-mobile{opacity:.0;color:gray;font-family:Garamond,Garamond,'Garamond Antiqua',times,serif!important;font-size:25px!important;}
+.logged-In{opacity:0;color:black;font-family:Garamond,Garamond,'Garamond Antiqua',times,serif!important;font-size:25px!important;}
+.submit-buttons{opacity:0;}.cancel-buttons{opacity:0;}.sc-icon-info-48{width:61px;height:60px;background:url('/static/sdhackathon/en/de2e756bd9b81ec5a347c9644420816c2b5baff0/resources/images/TCB_Globe.png');}
+.base-view{background:#cbdee9;background-image:-webkit-gradient(radial,center bottom,0,center bottom,800,from(gray),to(#262629));background-image:-moz-radial-gradient(bottom,circle,gray 0,#262629 800px);}
+.call-label{text-align:center;}.name-label{text-align:center;}
