@@ -53,7 +53,7 @@ SC.browser = (function() {
     browser.current = browser.msie ? 'msie' : browser.mozilla ? 'mozilla' : browser.safari ? 'safari' : browser.opera ? 'opera' : 'unknown' ;
 
 	if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-	   location.replace("http://localhost:3000/iphone/index");
+	   location.replace("/iphone/index");
 	};
   return browser ;
   
